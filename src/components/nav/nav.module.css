@@ -1,0 +1,28 @@
+.nav {
+  position: relative;
+  display: unset;
+  filter: blur(0.5);
+  padding: 0 15px;
+}
+
+.logo img{
+  transform: rotateZ(-90deg);
+  margin-top: 50px;
+}
+
+.name {
+  transform: rotateZ(-90deg);
+  bottom: 5em;
+  position: absolute;
+  font-size: 2em;
+  left: 0;
+  right: 0;
+  letter-spacing: 0.5em;
+}
+
+.theme {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 1.5em;
+}

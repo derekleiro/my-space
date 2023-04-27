@@ -1,0 +1,33 @@
+.mobileBottomNav {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  height: 70px;
+  z-index: 9999999999;
+  -webkit-tap-highlight-color:transparent;
+  user-select: none;
+  outline-style:none
+}
+
+.mobileBottomNav ul {
+  flex: 1;
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  padding: 0 10px;
+}
+
+.mobileBottomNav li,
+a {
+  transition: all ease-in-out 400ms;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  vertical-align: middle;
+  text-decoration: none;
+}

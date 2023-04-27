@@ -1,0 +1,17 @@
+@font-face {
+	font-family: "Bold";
+	font-display: swap;
+	src: url(bold.woff2) format("woff2");
+}
+
+@font-face {
+	font-family: "Regular";
+	font-display: swap;
+	src: url(regular.woff2) format("woff2");
+}
+
+@font-face {
+	font-family: "Light";
+	font-display: swap;
+	src: url(light.woff2) format("woff2");
+}

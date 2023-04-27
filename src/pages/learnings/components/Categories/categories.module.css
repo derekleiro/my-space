@@ -1,0 +1,19 @@
+.sections {
+  border-right: none;
+  margin-left: 25px;
+  padding: 25px;
+  display: unset;
+}
+
+.sections ol {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 50px;
+}
+
+.sections li {
+  list-style-type: none;
+  margin: 15px 0;
+  font-size: 1.5em;
+  cursor: pointer;
+}

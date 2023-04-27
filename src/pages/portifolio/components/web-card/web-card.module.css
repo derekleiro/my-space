@@ -1,0 +1,30 @@
+.card{
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 2em 0;
+}
+
+.boxPreview{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    min-width: 20em;
+    border-radius: 35px;
+    justify-content: center;
+}
+
+.cardDescription{
+    flex: 1.5;
+    min-width: 15em;
+    text-align: left;
+}
+
+.link{
+    cursor: pointer;
+}
+
+.link:hover{
+    text-decoration: overline;
+}

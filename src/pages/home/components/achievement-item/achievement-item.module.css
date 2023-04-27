@@ -1,0 +1,21 @@
+.achievement{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+}
+
+.achievement p{
+    text-align: center;
+    padding: 0 15px;
+}
+
+.achievement h1{
+    text-align: center;
+    padding: 0 15px;
+}
+
+.divider{
+    height: 100%;
+    flex: 1;
+    position: relative;
+}

@@ -1,0 +1,33 @@
+.nav {
+  position: relative;
+  display: unset;
+  filter: blur(0.5);
+  padding: 0 35px 0 15px;
+  height: 100vh;
+}
+
+.progressBar {
+  padding: 0 5px;
+  height: 10em;
+  border-radius: 35px;
+  position: relative;
+  transform: rotateZ(180deg);
+}
+
+.progressIndicator {
+  position: absolute;
+  transform: rotateZ(180deg);
+  bottom: 0px;
+  border-radius: 35px;
+  left: 0px;
+  padding: 0 5px;
+  height: 0;
+  transition: all ease-in-out 50ms;
+}
+
+.item{
+    transform: rotateZ(90deg);
+    margin: 25px 0;
+    line-height: 1em;
+    cursor: pointer;
+}

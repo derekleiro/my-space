@@ -1,0 +1,49 @@
+.contact {
+  width: 100%;
+}
+
+.contactInfoContainer {
+  display: flex;
+}
+
+.contactInfoContainer form {
+  flex: 2;
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactInfo *{
+  margin: 15px 0;
+}
+
+.formSection {
+  margin-top: 25px;
+}
+
+.contactInfoContainer label {
+  font-size: 1.25em;
+  font-family: "Regular";
+}
+
+.contact input[type="text"],
+select,
+textarea {
+  border-top: none;
+  border-left: none;
+  background-color: transparent;
+  border-right: none;
+  width: 100%;
+  outline: none;
+  padding: 15px 0;
+  font-size: 18px;
+  resize: none;
+  font-family: "Regular";
+}
+
+.contactInfo {
+    margin-left: 25px;
+    padding: 25px;
+}

@@ -1,0 +1,27 @@
+.gallery {
+  height: 60vh;
+  transition: all ease-in-out 500ms;
+  border-radius: 35px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  -webkit-tap-highlight-color:transparent;
+  user-select: none;
+  outline-style:none
+}
+
+.galleryItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.galleryItemDescription {
+  flex: 1;
+  padding: 0 25px;
+  text-align: center;
+}
+
+.galleryItemDescription p{
+  word-break: break-all;
+}
