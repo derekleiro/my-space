@@ -10,9 +10,13 @@ Types and non-changing values used by the app is stored in the `src/constants` f
 The `src/assets` folder stores all the media and typography used by the app. Finally the `src/store` folder is a volatile storage made using 
 Redux to store the various App states.
 
+
+
 ## Running the app
 Clone the project on your machine and open it on your preferred IDE.
 On the IDE terminal, run `yarn install` to install all the required dependencies.
 Once that is complete run `npm start` to start the app.
+
+### Demo https://derekleiro.me
 
 Happy coding!
